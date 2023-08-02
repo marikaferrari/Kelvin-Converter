@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures that padding and border are included in element's width and height */
+  }
+
+div.input-group {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+/* the :focus selector is used to style an element that currently has focus, meaning it is the active element that is receiving input or interaction from the user. */
