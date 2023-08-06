@@ -4,14 +4,51 @@
     box-sizing: border-box; /* This ensures that padding and border are included in element's width and height */
   }
 
-div.input-group {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    background-color: orange;
+ body {
+    margin: 0; /* Remove default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the body height to fill the viewport */
+  }
+  
+  h1 {
+    position: fixed;
+    margin-bottom: 550px;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    padding: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  div.input-group {
+    position: fixed;
+    margin: 500px;
+    margin-bottom: 700px;
+    width: 500px;
+    height: 200px;
+    background-color: #007bff;
     border: 1px solid blueviolet;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+  justify-content: space-between; 
   }
-
+  
+  .kelvin, .celsius {
+    margin: auto;
+    margin-left: 25px;
+  }
+  
+  footer {
+    margin-left: 1100px;
+    margin-top: 600px;
+  }
 /* the :focus selector is used to style an element that currently has focus, meaning it is the active element that is receiving input or interaction from the user. */
