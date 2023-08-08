@@ -39,8 +39,9 @@
   }
   
   div.input-group {
-    width: 50%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
+    padding: 20px;
     background-color: #007bff;
     border: 1px solid blueviolet;
     border-radius: 10px;
