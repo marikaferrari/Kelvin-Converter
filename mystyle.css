@@ -9,8 +9,8 @@
  body {
     margin: 0; /* Remove default body margin */
     height: 100vh; /* Set the body height to fill the viewport */
-    width: 100vw;
-    background-image: url("https://imgs.search.brave.com/q3zACetIt0is27__o-4-Q5qb3ogs2hvZaA8oWJiCrsA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS12ZWN0b3Iv/bW9kZXJuLWdlb21l/dHJpYy1zaGFwZXMt/ZGFyay1iYWNrZ3Jv/dW5kXzUyNjgzLTMz/Njg0LmpwZz9zaXpl/PTYyNiZleHQ9anBn");
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1692787309~exp=1692787909~hmac=7e53577b87b61847f9b762cba37f8151bc7b9079783e48956c91457d43e8a7e1");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -21,16 +21,16 @@
   
   h1 {
     width: 50%;
-    height: 85px;
-    margin-top: 20px;
+    height: 15%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    font-weight: 300;
-    color: #fff;
-    background-color: #007bff;
+    font-size: 40px;
+    font-weight: bold;
+    color: #B0A4A4;
+    background-color: #7A316F;
     padding: 20px;
     border: 1px solid blueviolet;
     border-radius: 10px;
@@ -39,26 +39,42 @@
   }
   
   div.input-group {
-    width: 70%;
-    height: 250px;
-    padding: 20px;
-    background-color: #007bff;
+    width: 55%;
+    height: 18em;
+    background-color: #7A316F;
     border: 1px solid blueviolet;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: center; 
   }
-  
+
+  .instruction {
+    padding: 20px 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #B0A4A4;
+    display: flex;
+    justify-content: center;
+  }
+
+  .temperatures {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  #label {
+    margin-right: 30px;
+  }
+
   .kelvin, .celsius {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 300;
-    color: #fff;
-    display: flex;
-    align-content: center;
+    font-weight: bold;
+    color: #B0A4A4;
   }
  
   footer {
